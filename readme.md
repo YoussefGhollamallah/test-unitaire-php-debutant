@@ -23,3 +23,12 @@ php -v
     ```
 - ![composer init](images/composer-init.png)
 
+4. Installer la librairie PHPUnit
+    - ![phpunit](images/phpunit.png)
+    
+5. Création de la structure
+    - un dossier "src" vide à du être créer avec phpunit. ( sinon le créer)
+    - Créer un fichier Math.php dans le dossier "src".
+    - Dans le fichier créer une class Math avec une méthode **addition** qui prend 2 paramètre $a et $b qui retourne la somme des deux paramètres.
+    - ![classe math](images/MathPHP.png)
+
