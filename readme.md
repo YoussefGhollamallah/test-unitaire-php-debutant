@@ -32,3 +32,17 @@ php -v
     - Dans le fichier créer une class Math avec une méthode **addition** qui prend 2 paramètre $a et $b qui retourne la somme des deux paramètres.
     - ![classe math](images/MathPHP.png)
 
+6. Mise en place du test unitaire
+    - Créer un dossier tests à la racine de votre projet.
+    - Dans votre dossier tests, créer un fichier MathTest.php et écrire un test pour vérifier votre méthode d'addition
+    - ![test](images/MathTest.png)
+
+7. Lancer votre test unitaires
+    - Entrez la commande pour lancez votre test
+    - ```bash
+         ./vendor/bin/phpunit tests
+         ```
+    - ![test](images/testPHP.png)
+
+8. Tester les erreurs, pour vérifier votre code:
+    - modifie la méthode addition en remplaçant le signe d'addition par celui de multiplication par exemple et relancez et vous aurez une erreur.
