@@ -9,3 +9,17 @@ Dans ce projet, je vais vous présentez le principe des tests unitaires en PHP a
 ```
 php -v
 ```
+
+## Installation:
+
+1. Créer le dossier de votre projet et nommez-le test-unitaire-php-debutant
+
+2. Ouvrez le terminal à la racine de votre projet dans l'IDE de votre choix.
+
+3. Initialisez composer dans votre terminal avec la commande suivante :
+
+- ```
+     composer init
+    ```
+- ![composer init](images/composer-init.png)
+
